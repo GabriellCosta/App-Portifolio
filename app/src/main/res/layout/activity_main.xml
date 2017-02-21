@@ -1,13 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-  android:id="@+id/activity_main"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="match_parent"
-  android:layout_height="match_parent">
+  android:layout_height="wrap_content">
+  <RelativeLayout
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
 
-  <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="@dimen/main_nanodegree_apps_margin_top"
-    android:layout_centerHorizontal="true"
-    android:text="@string/main_nanodegree_apps" />
-</RelativeLayout>
+
+
+    <TextView
+      android:id="@+id/textview_main_description"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/main_nanodegree_apps_margin_top"
+      android:layout_centerHorizontal="true"
+      android:text="@string/main_nanodegree_apps" />
+
+    <Button
+      android:id="@+id/button_main_popular_movies"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_below="@+id/textview_main_description"
+      android:text="@string/main_popular_movies" />
+
+    <Button
+      android:id="@+id/button_main_stock_hawk"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_below="@+id/button_main_popular_movies"
+      android:text="@string/main_stock_hawk" />
+
+    <Button
+      android:id="@+id/button_main_build_it_bigger"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_below="@+id/button_main_stock_hawk"
+      android:text="@string/main_build_it_bigger" />
+
+    <Button
+      android:id="@+id/button_main_make_your_app_material"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_below="@+id/button_main_build_it_bigger"
+      android:text="@string/main_make_your_app_material" />
+
+    <Button
+      android:id="@+id/button_main_go_ubiquitous"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_below="@+id/button_main_make_your_app_material"
+      android:text="@string/main_go_ubiquitos" />
+
+    <Button
+      android:id="@+id/button_main_capstone"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_below="@+id/button_main_go_ubiquitous"
+      android:text="@string/main_capstone" />
+
+
+  </RelativeLayout>
+</ScrollView>
+

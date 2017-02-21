@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Aplicativo Portfolio</string>
     <string name="main_nanodegree_apps">Meus Aplicativos Nanodegree !</string>
+    <string name="main_popular_movies">Filmes Populares</string>
+    <string name="main_toats_notification_app">Esse botão ira abrir o app \'%s\' !</string>
+    <string name="main_stock_hawk">Stock Hawk</string>
+    <string name="main_build_it_bigger">Build it Bigger</string>
+    <string name="main_make_your_app_material">Make Your App Material</string>
+    <string name="main_go_ubiquitos">Go Ubiquitos</string>
+    <string name="main_capstone">Capstone</string>
 </resources>

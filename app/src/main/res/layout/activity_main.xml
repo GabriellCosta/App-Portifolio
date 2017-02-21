@@ -7,5 +7,7 @@
   <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Hello World!" />
+    android:layout_marginTop="@dimen/main_nanodegree_apps_margin_top"
+    android:layout_centerHorizontal="true"
+    android:text="@string/main_nanodegree_apps" />
 </RelativeLayout>
